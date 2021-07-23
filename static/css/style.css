@@ -1,6 +1,6 @@
 * {
   box-sizing: border-box;
-}
+} 
 
 
 body {
@@ -18,13 +18,13 @@ body {
   align-items: center;
   width: 100%;
   
-}
+} 
 
 .widget {
 	display: block;
 	width: 80%;
-
-	bottom: 5%;
+    height: 450px;
+	bottom: 15%;
 	position: fixed;
 	background: #f6f6f6;
 	border-radius: 10px 10px 10px 10px;
@@ -81,7 +81,7 @@ div.chats::-webkit-scrollbar-thumb:hover {
 
 
 
-.fix {
+.clearfix {
 	margin-top: 2px;
 	margin-bottom: 2px;
 }
@@ -174,7 +174,7 @@ div.chats::-webkit-scrollbar-thumb:hover {
 	width: 100%;
 }
 
-.inputtext {
+.usrInput {
 	background: #FAE6FA;
 	padding: 0.5em;
 	width: 90%;
