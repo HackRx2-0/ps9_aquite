@@ -1,0 +1,166 @@
+version: "2.0"
+
+nlu:
+- intent: greet
+  examples: |
+    - hi
+    - hey
+    - hello
+    - ssup
+    - Wassup
+    - Whats up
+    - Whatcha doing
+    - How you doing
+    - Namaste
+
+- intent: goodbye
+  examples: |
+    - good afternoon
+    - good by
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+    - cya
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - yup
+    - yeah
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+    - sounds cool
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+    - nope
+    - naah
+    - nah
+    - nup
+    - not upto the mark
+    - not upto the point
+
+- intent: thanks
+  examples: |
+    - thanks
+    - thanks a lot
+    - thank you
+    - thanx
+    - thanx a lot
+    - thnx
+    - thank you so much
+    - Thats helpful
+
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+    - damn good
+
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so saad
+    - so sad
+    - im bored
+    - so boring
+    - worst
+    - bad
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+
+- intent: age_4045
+  examples: |
+    - 40
+    - 41
+    - 42
+    - 43
+    - 44
+    - 45
+        
+- intent: Gender_F
+  examples: |
+    - F
+    - Female
+
+- intent: Gender_M
+  examples: |
+    - M
+    - Male
+
+- intent: Location_C
+  examples: |
+   - Cold
+   - Winter
+
+- intent: Location_H
+  examples: |
+   - Hot
+   - Summer 
+    
+- intent: Medical_D
+  examples: |
+    - Diabetes
+    - Sugar
+    - Blood pressure
+    - cholesterol
+    - obesity
+
+- intent: Women
+  examples: |
+    - Menstral Cramps
+    - Preganacy
+    - Infertility
+    - Breast examination
+    - PCOD
+
+- intent: about_info
+  examples: |
+    - Tell about bajaj finserv health
+    - General health queries
+    - Health articles
+    - Bajaj finserv health products
+    - your services
+    - contact us

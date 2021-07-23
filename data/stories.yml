@@ -1,0 +1,113 @@
+version: "2.0"
+
+stories:
+
+# - story: happy path
+#   steps:
+#   - intent: greet
+#   - action: utter_greet
+#   - intent: mood_great
+#   - action: utter_happy
+
+# - story: sad path 1
+#   steps:
+#   - intent: greet
+#   - action: utter_greet
+#   - intent: mood_unhappy
+#   - action: utter_cheer_up
+#   - action: utter_did_that_help
+#   - intent: affirm
+#   - action: utter_happy
+
+# - story: sad path 2
+#   steps:
+#   - intent: greet
+#   - action: utter_greet
+#   - intent: mood_unhappy
+#   - action: utter_cheer_up
+#   - action: utter_did_that_help
+#   - intent: deny
+#   - action: utter_goodbye
+
+- story: the age4045 happy
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - action: utter_age
+  - intent: age_4045
+  - action: utter_gender
+  - intent: Gender_M
+  - action: utter_location
+  - intent: Location_C
+  - action: utter_medical_history
+  - intent: Medical_D
+  - action: utter_heart_disease
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_happy
+
+- story: the age4045 sad
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - action: utter_age
+  - intent: age_4045
+  - action: utter_gender
+  - intent: Gender_M
+  - action: utter_location
+  - intent: Location_C
+  - action: utter_medical_history
+  - intent: Medical_D
+  - action: utter_heart_disease
+  - action: utter_did_that_help
+  - intent: deny
+  - action: utter_goodbye
+
+- story: the women happy
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - action: utter_age
+  - intent: age_4045
+  - action: utter_gender
+  - intent: Gender_F
+  - action: utter_location
+  - intent: Location_C
+  - action: utter_medical_history
+  - intent: Women
+  - action: utter_women_health
+  - action: utter_do_you_need_more_info
+  - intent: affirm
+  - action: utter_More_women_info
+  - intent: utter_did_that_help
+  - intent: affirm
+  - action: utter_happy
+
+- story: the women sad
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - action: utter_age
+  - intent: age_4045
+  - action: utter_gender
+  - intent: Gender_F
+  - action: utter_location
+  - intent: Location_C
+  - action: utter_medical_history
+  - intent: Women
+  - action: utter_women_health
+  - action: utter_do_you_need_more_info
+  - intent: affirm
+  - action: utter_More_women_info
+  - intent: utter_did_that_help
+  - intent: deny
+  - action: utter_goodbye
+
+- story: the insight happy
+  steps:
+  - intent: about_info
+  - action: utter_bajaj
+  - intent: utter_did_that_help
+  - intent: affirm
+  - action: utter_happy
+  
