@@ -1,0 +1,75 @@
+version: "2.0"
+
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - thanks
+  - mood_great
+  - mood_unhappy
+  - bot_challenge
+  - age_4045
+  - Gender_F
+  - Gender_M
+  - Location_C
+  - Location_H
+  - Medical_D
+  - Women
+  - about_info
+
+responses:
+  utter_greet:
+  - text: "Namaste! Please follow the steps directed so as to serve you at best :)"
+
+  utter_cheer_up:
+  - text: "Here is something to cheer you up. Where does today come before yesterday? The dictionary"
+
+  utter_did_that_help:
+  - text: "Did that help you ?"
+
+  utter_happy:
+  - text: "Great, carry on!"
+
+  utter_goodbye:
+  - text: "Goodbye :)"
+
+  utter_thanks:
+  - text: "Welcome :)"
+
+  utter_iamabot:
+  - text: "I am a Chatbot"
+
+  utter_age:
+  - text: "Enter your age"
+
+  utter_gender:
+  - text: "Please specify gender"
+
+  utter_location:
+  - text: "Your location as per weather"
+
+  utter_medical_history:
+  - text: "Any medical history"
+
+  utter_heart_disease:
+  - text: "https://www.bajajfinservhealth.in/health-library/cholesterol"
+
+  utter_women_health:
+  - text: "https://www.bajajfinservhealth.in/labs/women-health"
+
+  utter_do_you_need_more_info:
+  - text: "Do you need more help?"
+
+  utter_More_women_info:
+  - text: "https://www.bajajfinservhealth.in/doctor/Pune/gynaecologist?econsult=true"
+
+  utter_bajaj:
+  - text: "https://www.bajajfinservhealth.in/"
+
+
+
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
